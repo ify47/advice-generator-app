@@ -4,12 +4,9 @@ import patternmobile from '../images/pattern-divider-mobile.svg';
 
 const Advice = ({ adviceApi }) => {
 
-
-
     return (
         <>
             {
- 
                 adviceApi.map((item) => (
                     <div key={item.id}>
                         <p className="title-text">ADVICE #{item.id}</p>
